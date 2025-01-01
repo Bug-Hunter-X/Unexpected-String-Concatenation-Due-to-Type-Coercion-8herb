@@ -1,0 +1,1 @@
+function foo(a, b) {  if (typeof a === 'string' ) a = parseFloat(a);  if (typeof b === 'string' ) b = parseFloat(b);  return a + b;}console.log(foo(1, "2")); // Output: 3console.log(foo("1", 2)); // Output: 3console.log(foo("1", "2")); // Output: 3
